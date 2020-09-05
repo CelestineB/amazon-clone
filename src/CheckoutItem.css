@@ -1,0 +1,22 @@
+.checkout__item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkout__item>img {
+    flex: 0.2;
+    object-fit: contain;
+    height: 200px;
+}
+
+.checkout__item>div {
+    flex: 0.8;
+}
+
+.checkout__itemInfo>button {
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+}
