@@ -1,5 +1,21 @@
 .checkout {
+    display: flex;
     background-color: white;
+    padding: 0 20px;
+}
+
+.checkout__boxOne {
+    flex: .8;
+}
+
+.checkout__ads {
+    width: 100%;
+}
+
+.checkout__ads>img {
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
 }
 
 .checkout>h2 {
